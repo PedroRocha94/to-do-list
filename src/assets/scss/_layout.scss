@@ -67,4 +67,26 @@
       }
     }
   }
+
+  .list {
+    display: flex;
+    width: 50%;
+    border-radius: 4px;
+    padding: 1rem;
+    background-color: #84A7A1;
+
+    ul {
+      width: 100%;
+      list-style-type: none;
+      padding-left: 1rem;
+
+      li {
+        width: 90%;
+        background-color: #FFF;
+        margin: 1rem;
+        padding: .5rem;
+        border-radius: 4px;
+      }
+    }
+  }
 }
